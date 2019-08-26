@@ -1,0 +1,27 @@
+body{
+background-color: #eee;
+}
+/* for set the position */
+div#accordion {
+    width: 70%;
+    margin: 70px 250 70 190px;
+border: 30px solid rgb(213, 231, 231);
+}
+/* text decoration*/
+.hed_tag {
+    margin: 50px 0 0 0;
+    color: rgba(104, 94, 94, 0.795);
+}
+img{
+
+    height: 90px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
