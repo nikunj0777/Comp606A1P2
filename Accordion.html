@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>jQuery Accordion </title>
+      <!--Here I am going to add some jquery libraries-->
+        <link rel="stylesheet" href="./jquery-ui.css">
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+      <!--Script to operate functionality-->
+     <script>
+         $( function() {
+           // toggle between hiding and showing the active section
+           $( "#accordion" ).accordion();
+           collapsible: true;
+        } );
+    </script>
+</head>
+
+<body>
+  <div class="hed_tag"><h2 style="text-align:center;">----ACCORDION----</h2></div> 
+     <div id="accordion">
+        <h3 >Section:1</h3>
+    <div>
+       <p>
+        <b>Text::</b>
+        This is my first accordion program where we can create this kind of theme by the help of the jquery. The accordion (options) method declares that an HTML element and its contents should be treated and managed as accordion menus.
+       </p>
+  
+    </div>
+   
+    <h3 >Section:2</h3>
+        <div>
+          <p>
+            <b>Text And Image::</b>
+            The accordion widget uses the jQuery UI CSS framework to style its look and feel. And with the use of Accordion, we can add some methods, events, and styles.  
+          </p>
+          <!--displaying image with accordion tag-->
+              <img src="new.jpg"/>
+      
+        </div>
+  
+     <h3 >Section:3</h3>
+        <div>
+           <p>
+            <b>Text And lists::</b> 
+            With that, we can see our text in the different section such as section 1, section 2, section 3. And section could be in different format such as vertical or horizontal.
+            apart from that, we can add a list between hiding and showing a large amount of content.     </p>
+       <ul>
+         <li>fruits</li>
+        <li>vegitables</li>
+        <li>junk food</li>
+    </ul>
+   </div>
+
+  </div>
+  </body>
+</html>
